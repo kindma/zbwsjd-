@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>插入超级链接</TITLE>
+<link rel="stylesheet" type="text/css" href="../Css/editor_dialog.css">
+<script language="JavaScript">
+function OK(){
+  var strurl=document.form1.d_url.value;
+  if (strurl=="")
+  {
+  	alert("请先输入地址！");
+	document.form1.d_url.focus();
+	return false;
+  }
+  else
+  {
+    window.returnValue = strurl;
+    window.close();
+  }
+}
+function IsDigit()
+{
+  return ((event.keyCode >= 48) && (event.keyCode <= 57));
+}
+// 改变协议
+function changed_protocol(index)
+{
+	var sd_protocol;
+	var sUrl;
+	var re;
+	sd_protocol=document.form1.d_protocol.options[index].value;
+	sUrl = document.form1.d_url.value;
+	re = /(.+:\/*)/gi;
+	sUrl = sUrl.replace(re, "");
+	document.form1.d_url.value = sd_protocol + sUrl;
+}
+</script>
+</head>
+<BODY bgColor=menu topmargin=15 leftmargin=15 >
+<form name="form1" method="post" action="">
+<input name="UpFileName" type="hidden" id="UpFileName" value="None">
+<table width=100% border="0" cellpadding="0" cellspacing="2">
+  <tr><td>
+<FIELDSET align=left>
+<LEGEND align=left>超级链接信息</LEGEND>
+<TABLE border="0" cellpadding="0" cellspacing="3">
+<TR><TD >类型：<select id=d_protocol style="width:72px" onchange="changed_protocol(this.selectedIndex)" name="d_protocol">
+				<option value=''>其它</option>
+				<option value='file://'>file:</option>
+				<option value='ftp://'>ftp:</option>
+				<option value='gopher://'>gopher:</option>
+				<option value='http://' selected>http:</option>
+				<option value='https://'>https:</option>
+				<option value='mailto:'>mailto:</option>
+				<option value='news:'>news:</option>
+				<option value='telnet:'>telnet:</option>
+				<option value='wais:'>wais:</option>
+				</select></td></TR>
+<TR><TD>　</TD></TR>
+<TR><TD >地址：<INPUT name="d_url" id=d_url  value="http://" size=34></TD></TR>
+</TABLE></fieldset></td><td width=80 align="center"><input name="cmdOK" type="button" id="cmdOK" value="  确定  " onClick="OK();">
+  <br>
+  <br>  <input name="cmdCancel" type=button id="cmdCancel" onclick="window.close();" value='  取消  '></td></tr>
+  </table>
+</form>
+</body>
+</html>

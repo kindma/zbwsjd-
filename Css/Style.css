@@ -1,0 +1,183 @@
+BODY {
+	BACKGROUND-COLOR: #FFFFFF; FONT-SIZE: 10pt; LINE-HEIGHT: normal; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 0px;SCROLLBAR-FACE-COLOR: LightGray; SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: Gainsboro; SCROLLBAR-ARROW-COLOR: #ffffff; BORDER-BOTTOM: #ffffff 0px;  SCROLLBAR-DARKSHADOW-COLOR: Gainsboro; BORDER-COLLAPSE: collapse;
+	scrollbar-base-color:#E0F0F0;
+	scrollbar-arrow-color: #330000;/*上下按钮上三角箭头的颜色*/
+	scrollbar-face-color:#E8E8E8;/*滚动条凸出部分的颜色*/
+	scrollbar-darkshadow-color:#C0C0C0;
+}
+
+TITLE {
+	COLOR: #cc0000; FONT-FAMILY: "Arial"; FONT-SIZE: 12pt; LINE-HEIGHT: 20pt; TEXT-DECORATION: blink
+}
+TABLE {
+	FONT-FAMILY: Arial; FONT-SIZE: 10pt; LINE-HEIGHT: normal;
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+H1 {
+	color: #003399;  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 9pt; font-weight: 900
+	
+}
+
+H2 {
+	color: #003399;  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 9pt; font-weight: 400
+	
+}  
+.iframe {
+	width:100%;
+	height:100%;
+	border-color:＃7F9DB9;
+	border-width:thin;
+	border-style:none
+	
+}
+.txtInput
+{
+	FONT-FAMILY: "宋体"; FONT-SIZE: 9pt
+}
+.ptitle  {
+              color: #ff0000 
+}
+
+.sorry {
+	color: #ff0000;  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 9pt; font-weight: 500
+}
+
+.info {
+	color: #ff0000;  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; font-weight: 500
+}
+.ListHeaderColor {
+	BACKGROUND-COLOR: #036696; color: #FFFFFF;  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 9pt; font-weight: 900
+}
+.ListColorOdd {
+	BACKGROUND-COLOR: #EEECE3; align: center
+}
+.FooterColor {
+	background-color: #CFDECD;
+	border: 1px outset #FFCC00;
+
+}
+.text
+{
+BORDER-RIGHT: #076AA3 1px solid; BORDER-TOP: #076AA3 1px solid; BORDER-LEFT: #076AA3 1px solid; BORDER-BOTTOM: #076AA3 1px solid
+}
+.text_field {
+	BORDER-RIGHT: #8596ca 1px solid; BORDER-TOP: #8596ca 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #8596ca 1px solid; COLOR: #003399; PADDING-TOP: 1px; BORDER-BOTTOM: #8596ca 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+.text_read {
+	PADDING-LEFT: 4px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 0px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000066;
+	PADDING-TOP: 1px;
+	FONT-FAMILY: "宋体";
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: transparent;
+	border: 1px solid #999999;
+
+}
+.textdetail {
+	PADDING-LEFT: 4px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 0px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000066;
+	PADDING-TOP: 1px;
+	FONT-FAMILY: "宋体";
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: transparent;
+	border: 1px solid #999999;
+
+}
+.TextSubTitle {
+	font-family: "宋体";
+	font-style: normal;
+	line-height: normal;
+	color: #000099;
+	font-weight: bold;
+
+}
+.typetxt {
+	font-size: 12pt;
+	line-height: 15pt;
+	color: #CCCCCC;
+}
+.typetxtarea {
+	font-size: 12pt;
+	line-height: 17pt;
+	border:none;
+	background:;
+}
+.bg_right {
+	background-color: #0099FF;
+}
+.bg_wrong {
+	background-color: #FF6600;
+}
+
+.HeadRow
+{
+	background-image:url(../images/TableHeaderBg.gif) ;
+	height:23px ;
+	font-family: "宋体";
+	font-size:12px ; 
+}
+
+TABLE {FONT-FAMILY: "宋体"; FONT-SIZE: 9pt}
+a:visited    { text-decoration: none }
+a:active     { text-decoration: none }
+a:hover      { text-decoration: none; color: #FF0000 }
+a:link       { text-decoration: none }
+
+.button      { font-family: 宋体; font-size: 9pt; height:20px ; width:64px ;
+               border-style: solid; border-width: 1;border: 0px outset;background-image:url(../images/input_bg.gif) ;}
+               
+.lenbutton   { font-family: 宋体; font-size: 9pt; height:20px ; width:78px ;
+               border-style: solid; border-width: 1;border: 0px outset;background-image:url(../images/input_lenbg.gif) ;}
+               
+.topictitle  { font-family: 黑体; color: #000000; filter: Glow(Color=#ffFFff, Strength=1); 
+               font-size: 20; font-weight: width auto; height: auto; padding: 
+               3pt }
+.tableheader { font-family: Verdana; font-size: 9pt; color: #FFFFFF; background-color: 
+               #0099CC }
+.tablebody   { font-size: 12px; color: #000000; background-color: #CEE7FF }
+.pageheader  { font-family: Verdana; font-size: 9pt; color: #FFFFFF; background-color: 
+               #6699FF }
+.pagebody {font-family: "Verdana"; font-size: 9pt; color: #333366; background-color: #DFF3FF}
+
+.bodystyle{font-family: "Verdana"; font-size: 9pt; background-color: #9DA8D2}
+.divtitle    { background-repeat: no-repeat; height: 55px; left: 0px; position: absolute; 
+               text-align: right; top: 0px; width: 100%; z-index: 600; 
+               margin: 0px; background-position: 99% 98% }
+.datetext    { background-color: #DFEFFF; font-size: 11pt; border: 1px solid #0099FF }
+.uitext      { border: 1px solid #0099FF }
+.wzltext     { scrollbar-face-color: #7aa1e6; scrollbar-highlight-color: #7aa1e6; 
+               scrollbar-shadow-color: #7aa1e6; scrollbar-3dlight-color: 
+               #ffffff; scrollbar-arrow-color: #ffffff; 
+               scrollbar-track-color: #7aa1e6; scrollbar-darkshadow-color: 
+               #000000; scrollbar-base-color: #ffffff; font-size: 10pt; 
+               border: 1px solid #0066ff }
+.scoretext
+{
+    BORDER-BOTTOM: #0066ff 1px solid;
+    BORDER-LEFT: #0066ff 1px solid;
+    BORDER-RIGHT: #0066ff 1px solid;
+    BORDER-TOP: #0066ff 1px solid;
+}
+
+.filltext      { background-color: #ffffff; border-left: 0px solid #3333ff; 
+               border-right: 0px solid #3333ff; border-top: 0px solid #3333ff; 
+               border-bottom: 1px solid #3333ff }
+.filetext    { height: 20px; width: 30px; font-size: 9pt; font-family: Tohama, Verdana; 
+               color: #0000FF; border-left: 1px solid black; 
+               border-right: 1px solid black; border-top: 1px solid black; 
+               border-bottom: 1px solid #000000 }

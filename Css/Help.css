@@ -1,0 +1,14 @@
+body {font-size: 12px;}
+img {border: 1px solid #000000;}
+
+.nobodyer {border: 0px;}
+.firstTitle {font-size:14px;font-weight:600;}
+.secondTitle {font-size:12px;font-weight:600;}
+
+.firstText {font-size: 14px;}
+.secondText {font-size: 12px;}
+
+a:link		{ text-decoration:none;}
+a:visited	{ text-decoration:none;}
+a:hover		{ text-decoration:underline;}
+a:active	{ text-decoration:none;}

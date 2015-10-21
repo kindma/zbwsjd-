@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "myexam", ".", "{D6882C0C-DF19-4DBC-B094-1AFDE13FCA47}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Exam"
+		Debug.AspNetCompiler.PhysicalPath = "..\myexam\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Exam\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Exam"
+		Release.AspNetCompiler.PhysicalPath = "..\myexam\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Exam\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3240"
+		SlnRelativePath = "..\myexam\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6882C0C-DF19-4DBC-B094-1AFDE13FCA47}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D6882C0C-DF19-4DBC-B094-1AFDE13FCA47}.Debug|.NET.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

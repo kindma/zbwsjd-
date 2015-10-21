@@ -1,0 +1,211 @@
+body
+{
+       	font-size: 12px;
+	MARGIN: 10px;
+    
+ 
+	background-color: #f7faff;
+ 
+	scrollbar-face-color: #c4d4ed;
+	scrollbar-highlight-color: #f7faff;
+	scrollbar-shadow-color: #dee3e7;
+	scrollbar-3dlight-color: #d1d7dc;
+	scrollbar-arrow-color:  #435293;
+	scrollbar-track-color: #d8e4f2;
+	scrollbar-darkshadow-color: #98aab1
+}
+
+.body1
+{
+       	font-size: 12px;
+	MARGIN: 0px;
+ 
+ 
+	background-color: #f7faff;
+ 
+	scrollbar-face-color: #c4d4ed;
+	scrollbar-highlight-color: #f7faff;
+	scrollbar-shadow-color: #dee3e7;
+	scrollbar-3dlight-color: #d1d7dc;
+	scrollbar-arrow-color:  #435293;
+	scrollbar-track-color: #d8e4f2;
+	scrollbar-darkshadow-color: #98aab1
+}
+
+.MainBorderLeft {
+	DISPLAY: block; BACKGROUND: #ffffff url('BorderLeft.jpg'); WIDTH: 17px
+}
+.MainBorderRight {
+	DISPLAY: block; BACKGROUND: #ffffff url('BorderRight.jpg'); WIDTH: 16px
+}
+.MainBorderBottom {
+	DISPLAY: block; HEIGHT: 17px
+}
+.MainBorderBottomLeft {
+	BACKGROUND: #ffffff url('BorderBottomLeft.jpg') no-repeat; WIDTH: 17px
+}
+.MainBorderBottomCenter {
+	BACKGROUND: #ffffff url('BorderBottomCenter.jpg') repeat-x; WIDTH: 100%
+}
+.MainBorderBottomRight {
+	BACKGROUND: #ffffff url('BorderBottomRight.jpg') no-repeat; WIDTH: 57px
+}
+.Topbar
+{
+	height: 94px;
+}
+.TopbarLeft {
+	BACKGROUND: #ffffff url('TopbarLeft.jpg') no-repeat; WIDTH: 223px
+}
+.LabelCourseName {
+	FONT-SIZE: 18px; Z-INDEX: 1; FILTER: Glow(Color=#ffffff,Strength=3); LEFT: 60px; WIDTH: 323px; COLOR: #000000; FONT-FAMILY: simhei; POSITION: absolute; TOP: 20px; HEIGHT: 30px
+}
+.imgBack {
+	Z-INDEX: 2; LEFT: 74px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgForward {
+	Z-INDEX: 2; LEFT: 102px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgRefresh {
+	Z-INDEX: 2; LEFT: 130px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgHomePage {
+	Z-INDEX: 2; LEFT: 158px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.TopbarCenter {
+	BACKGROUND: #ffffff url('TopbarCenter.jpg'); 
+}
+
+.TopbarRight {
+	BACKGROUND: #ffffff url('TopbarRight.jpg'); WIDTH: 573px
+}
+
+
+
+
+select
+{
+	font-size: 12px;
+}
+input
+{
+	font-size: 12px;
+}
+textarea
+{
+	font-size: 12px;
+}
+br
+{
+	font-size: 12px;
+}
+table
+{
+	font-size: 12px;
+}
+
+
+.Topbar
+{
+	height: 94px;
+}
+.TopbarCenter {
+	BACKGROUND: #ffffff url('TopbarCenter.jpg'); 
+}
+.TopbarLeft {
+	BACKGROUND: #ffffff url('TopbarLeft.jpg') no-repeat; WIDTH: 223px
+}
+.LabelCourseName {
+	FONT-SIZE: 18px; Z-INDEX: 1; FILTER: Glow(Color=#ffffff,Strength=3); LEFT: 60px; WIDTH: 323px; COLOR: #000000; FONT-FAMILY: simhei; POSITION: absolute; TOP: 20px; HEIGHT: 30px
+}
+.imgBack {
+	Z-INDEX: 2; LEFT: 74px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgForward {
+	Z-INDEX: 2; LEFT: 102px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgRefresh {
+	Z-INDEX: 2; LEFT: 130px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.imgHomePage {
+	Z-INDEX: 2; LEFT: 158px; WIDTH: 28px; POSITION: absolute; TOP: 57px; HEIGHT: 30px
+}
+.TopbarRight {
+	BACKGROUND: #ffffff url('TopbarRight.jpg'); WIDTH: 573px
+}
+.CourseFunctionPanel {
+	Z-INDEX: 2; LEFT: 0px; WIDTH: 573px; POSITION: relative; TOP: 0px; HEIGHT: 63px; TEXT-ALIGN: right
+}
+.OtherFunctionPanel {
+	Z-INDEX: 2; LEFT: 362px; WIDTH: 188px; POSITION: relative; TOP: 2px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.OtherFunctionFont {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.OtherFunctionSpace {
+	DISPLAY: none; FONT-SIZE: 12px; COLOR: #000000
+}
+a:link   { padding:0; color: #003399; text-decoration: none }
+a:active { text-decoration: none; font-size: 9pt; color: #0000FF }
+a:visited { color: #003399; text-decoration: none font-size 9pt }
+a:hover  { text-decoration: underline; font-size: 9pt; color: #0000FF }
+.s01 {border:1px groove #000000; FONT-SIZE: 12px; HEIGHT: 14pt; color:#003399}
+.s011 {border:1px groove #000000; FONT-SIZE: 12px;   color:#003399}
+.s02 { border:1px outset #799AE1; FONT-SIZE: 12px; HEIGHT: 16pt; BACKGROUND-COLOR: #FFFFFF; padding-top:2; color:#000000; padding-left:4; padding-right:4; padding-bottom:1;cursor: url('images/administrator.ani')}
+.outborder   { border-left: 1px solid #333333; border-right: 1px solid #000000; 
+               border-top: 1px solid #99CCFF; border-bottom: 1px solid #000000; 
+               background-color: #336699; color:#FFFFFF }
+.sec_menu  { border-left:1px solid white; border-right:1px solid white; border-bottom:1px solid white; overflow:hidden; background:#D6DFF7; }
+.menu_title  { }
+.menu_title span  { position:relative; top:2px; left:8px; color:#215DC6; font-weight:bold; }
+.menu_title2  { }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#428EFF; font-weight:bold; }
+.bw { WORD-WRAP: break-word;  }
+.tf { TABLE-LAYOUT: fixed }
+.trh
+{
+    background-image: url('admin_bg_1.gif');
+    background-color: #4455aa;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight:bold
+}
+.trh1
+{
+ 
+    background-color: #FFFDE8;
+    color: #000000;
+    font-size: 12px
+    
+}.banquan     { color: #FF0000; font-weight: bold }
+.bg_1 { background-color: #FFFFFF }
+.bg_2 { background-color: #F7F7F7 }
+.bg_3 { background-color: #EDEDED }
+.red_2 { color:#990000 }
+.gray { color: #808080; }
+.red { color:#FF3300 }
+.red_2 { color:#990000 }
+.red_3 { color:#CC3300 }
+.red_4 { color:#CC3300;}
+.blue { color: #0066CC; }
+ 
+.inputedit   { border:1px solid #4D79D7; background-color:#FFFFFF; color:#0000FF ;cursor: url('images/happy.ani');}
+.radio       { border: 1px solid #FFFFFF; background-color: #FFFDE8;cursor: url('images/happy.ani');}
+.areanormal { border-style: solid; border-width: 0; background-color:#ffffff}
+.inputnormal{
+text-align: center; color: #000099; border: 1px solid #799AE1; background-color: #FFFFFF;
+
+cursor: url('images/happy.ani');}
+
+
+.inputnormalleft{
+      color: #000099; border: 1px solid #799AE1; background-color: #FFFFFF
+	scrollbar-face-color: #c4d4ed;
+	scrollbar-highlight-color: #f7faff;
+	scrollbar-shadow-color: #dee3e7;
+	scrollbar-3dlight-color: #d1d7dc;
+	scrollbar-arrow-color:  #435293;
+	scrollbar-track-color: #d8e4f2;
+	scrollbar-darkshadow-color: #98aab1;
+	cursor: url('images/happy.ani');
+}

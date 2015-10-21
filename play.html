@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>视频播放</title>	
+	<script src="htmlplay/jquery.js"></script>		
+	<script src="htmlplay/mediaelement.js"></script>
+	 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes" id="viewport" name="viewport">
+</head>
+<body>
+
+ 
+<video width="100%"   id="player1" src="flv/wspx.mp4" type="video/mp4" controls></video>
+
+<input type="button" id="pp" value="toggle" style="display:none;" />
+<span id="time" style="display:none;" /></span> 
+	
+<script>
+ 
+function checkVideo() {
+    if ( !! document.createElement('video').canPlayType) {
+        var vidTest = document.createElement("video");
+        oggTest = vidTest.canPlayType('video/ogg; codecs="theora, vorbis"');
+        if (!oggTest) {
+            h264Test = vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
+            if (!h264Test) {
+                document.getElementById("checkVideoResult").innerHTML = "Sorry. No video support."
+            } else {
+                if (h264Test == "probably") {
+                    return true;
+                } else {
+                   return true;
+                }
+            }
+        } else {
+            if (oggTest == "probably") {
+               return true;
+            } else {
+               return true;
+            }
+        }
+    } else {
+       return false;
+    }
+}
+ 
+if(checkVideo()){
+MediaElement('player1', {success: function(me) {
+	
+	me.play();
+	
+	me.addEventListener('timeupdate', function() {
+		document.getElementById('time').innerHTML = me.currentTime;
+	}, false);
+	
+	document.getElementById('pp')['onclick'] = function() {
+		if (me.paused)
+			me.play();
+		else
+			me.pause();
+	};
+
+}});
+ 
+}
+else location.href="playflv.html";
+</script>
+
+</body>
+</html>
